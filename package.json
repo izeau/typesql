@@ -1,0 +1,26 @@
+{
+  "name": "@izeau/typesql",
+  "version": "1.0.0",
+  "description": "Extract TypeScript type definitions from CREATE TABLE SQL statements",
+  "author": "Jean Dupouy (https://github.com/izeau)",
+  "license": "MIT",
+  "typings": "lib/typesql.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/izeau/typesql.git"
+  },
+  "files": [
+    "lib/*.d.ts"
+  ],
+  "scripts": {
+    "typedefs": "tsc --outdir lib --declaration --emitDeclarationOnly typesql.ts"
+  },
+  "keywords": [
+    "SQL",
+    "TypeScript",
+    "type"
+  ],
+  "devDependencies": {
+    "typescript": "4.7"
+  }
+}
